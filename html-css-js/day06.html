@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day06_select tag</title>
+</head>
+<body>
+    <h2>1. label and textarea tag :</h2>
+   <label style="background-color: yellow;" for="textarea">Description :</label> <br> 
+   
+   <textarea class="textarea" id="textarea"> write here </textarea>
+
+   <textarea id="textarea"> write here </textarea>
+   <h2>2. select tag :</h2>
+   <label style="margin-left: 30px;" for="myselect">select color: </label> 
+   <select id="myselect">
+    <option id="red">Red</option>
+    <option id="black">Black</option>
+    <option id="yellow">Yellow</option>
+    <option id="blue">Blue</option>
+    <option id="orange">Orange</option>
+   </select>
+
+   <label style="margin-left: 30px;" for="myselect">select multiple: </label> 
+   <select id="myselect" multiple>
+    <option id="red">Red</option>
+    <option id="black">Black</option>
+    <option id="yellow">Yellow</option>
+    <option id="blue">Blue</option>
+    <option id="orange">Orange</option>
+   </select>
+
+   <label style="margin-left: 30px;" for="myselect">select fruit: </label> 
+   <select id="myselect">
+    <option id="mango">Mango</option>
+    <option id="banana" selected>Banana</option> by default it will show banana as first selected
+    <option id="watermelon">Watermelom</option>
+    <option id="strawberry">Strawberry</option>
+   </select>
+
+   <label style="margin-left: 30px;" for="myselect">select Planet: </label> 
+   <select id="myselect">
+    <option id="earth">Earth</option>
+    <option id="pluto" disabled>pluto (disabled)</option>
+    <option id="saturn">Saturn</option>
+    <option id="Mars">Mars</option>
+   </select>
+
+   <label style="margin-left: 30px;" for="myselect">select City: </label> 
+   <select id="myselect">
+    <optgroup label="Major cities">
+    <option id="mumbai">Mumbai</option>
+    <option id="pune" >Pune</option>
+    <option id="Nagpur">Nagpur</option>
+</optgroup>
+<optgroup label="other">
+    <option id="amravati" >Amravati</option>
+    <option id="beed">Beed</option>
+    <option id="Nasik">Nasik</option>
+</optgroup>
+   </select>
+</body>
+
+<style>
+
+.textarea{
+background-color: red;
+}
+
+</style>
+</html>

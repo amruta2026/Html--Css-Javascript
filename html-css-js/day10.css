@@ -1,0 +1,18 @@
+
+h1{
+    text-align: center;
+
+    color:brown;
+}
+#pass{
+    margin-top: 2%;
+    
+}
+#idloginbutton{
+    margin-top: 2%;
+
+    margin-left: 8%;
+}
+#errormessage{
+    color: red;
+}

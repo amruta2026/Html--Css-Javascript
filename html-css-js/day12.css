@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: blue;
+    text-shadow: 2px 2px 6px red;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    letter-spacing: 3px;
+    font-weight: 5
+     px;
+    line-height: 50px;
+}
+button{
+color: redS;
+}
